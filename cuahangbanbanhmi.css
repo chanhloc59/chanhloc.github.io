@@ -1,0 +1,101 @@
+/* Reset một số thuộc tính mặc định của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Thiết lập font chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff6347; /* Màu cam của cửa hàng */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Phần Giới thiệu */
+#gioi-thieu {
+    background-color: #fff;
+}
+
+/* Phần sản phẩm */
+#san-pham {
+    background-color: #f9f9f9;
+}
+
+#san-pham .product {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#san-pham .product h3 {
+    color: #ff6347;
+    margin-bottom: 10px;
+}
+
+#san-pham .product p {
+    color: #555;
+}
+
+/* Phần Liên hệ */
+#lien-he {
+    background-color: #fff;
+}
+
+#lien-he p a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+#lien-he p a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
